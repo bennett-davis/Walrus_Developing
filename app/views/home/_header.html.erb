@@ -7,26 +7,39 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <!-- add dropdown and dropdown-link to the nav item and then the link one to the navlink to get about page back pages -->
+        <li class="nav-item  ">
+          <a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Record Workout
+          <!-- 
             <% if current_page?(root_path) %>
               Record Workout
             <% else %>
               About
             <% end %>
+          -->
           </a>
+
+          <!--
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="/">Record Workout</a></li>
             <% if current_page?(root_path) %>
               <li><a class="dropdown-item" href="/home/about">About</a></li>
             <% else %>
               <li><a class="dropdown-item" href="/">Record Workout</a></li>
             <% end %>
+          -->
           </ul>
         </li>
       </ul>
       <span class="navbar-text">
-        Hi Landon.
+        <!--
+          <% if current_page?(root_path) %>
+            Record Workout
+          <% else %>
+            About
+          <% end %>
+        -->
       </span>
     </div>
   </div>
