@@ -3,13 +3,13 @@
  
 <div class="container text-light py-5">
     <div class="row">
-        <div class="col-5 align-self-center text-center ">
+        <div class="col-lg-5 col-md-12 col-sm-12 align-self-center text-center ">
             <h1>Record Workout</h1>
             <div class="text-white-50">
-            <h4>Track your workouts, post them for your friends to see, and hit some personal records!</h4>
+                <h4>Track your workouts, post them for your friends to see, and hit some personal records!</h4>
             </div>
             </br>
-            <h5>
+            <h5 class="pb-3">
                 <a class="btn btn-primary" href="https://testflight.apple.com/join/GFvd3tM1">Join The Beta Now</a>
             </h5>
         <!--
@@ -18,73 +18,60 @@
             </div>
          -->
         </div>
-        <div class="col-7" >
-            <div class="container" style ="width: 700px">
-                <%= image_tag("triple.png", class: "img-fluid", id: "calendar_tab" )  %>
+        <div class="col-7 d-flex justify-content-center mx-auto" >
+            <%= image_tag("triple.png", class: "img-fluid", id: "calendar_tab" )  %>
+        </div>
+    </div>
+
+    </br></br>
+
+    <!-- First Box  -->
+    <div class="py-4 px-5 bg-dark rounded-3   mx-auto">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 align-self-center text-center ">
+                <h2>Record Your Workouts</h2>
+                <div class="container-bg w-75 mx-auto" style="height: 3px "></div>
+                <p class="py-2">Keep track of all of your workouts, from weight training to stretching. A customizable apprach to the tracking system allows you to track whatever is most important to you.</p>
+            
+            </div>
+            <div class="col-lg-4 col-sm-8 col-xs-6 d-flex mx-auto" >
+                <%= image_tag("calendar.png", class: "img-fluid", id: "calendar_tab" )  %>
             </div>
         </div>
     </div>
-    </br></br>
-   
-    </div>
-        <div class="py-5">
-            <div class="py-4 px-5 bg-dark rounded-3 w-75 mx-auto" style=" ">
-                <div class="row g-0 align-items-center">
-                    <div class="col-4 p-5">
-                        <%= image_tag("calendar.png", class: "img-fluid", id: "calendar_tab" )  %>
-                    </div>
-                    <div class="col-8">
-                        <div class="text-center text-light">
-                            <h2>Record Your Workouts</h2>
-                            <div class="container-bg w-75 mx-auto" style="height: 3px "></div>
-                            <p class="py-2">Keep track of all of your workouts, from weight training to stretching. A customizable apprach to the tracking system allows you to track whatever is most important to you.</p>
-                         </div>
-                    </div>
-                </div>
+    
+   </br></br>
+   <!-- Second Box  -->
+   <div class="py-4 px-5 bg-dark rounded-3   mx-auto">
+        <div class="row">
+            <div class="col-lg-4 col-sm-8 col-xs-6 d-flex mx-auto" >
+                <%= image_tag("calendar.png", class: "img-fluid", id: "calendar_tab" )  %>
             </div>
-        </div>    
+            <div class="col-lg-8 col-md-12 col-sm-12 align-self-center text-center py-2">
+                <h2>Follow Your Friends</h2>
+                <div class="container-bg w-75 mx-auto" style="height: 3px "></div>
+                <p class="py-2">See what kind of workouts your friends are doing! Select public when you finish your workout to let your friends see what you did. </p>
+                
+            </div>
+        </div>
     </div>
 
     </br></br>
-
-    </div>
-        <div class="py-5">
-            <div class="py-4 px-5 bg-dark rounded-3 w-75 items mx-auto" style=" ">
-                <div class="row g-0 align-items-center">
-                    <div class="col-8">
-                        <div class="text-center text-light">
-                            <h2>Follow Your Friends</h2>
-                            <div class="container-bg w-75 mx-auto" style="height: 3px "></div>
-                            <p class="py-2">See what kind of workouts your friends are doing! Select public when you finish your workout to let your friends see what you did. </p>
-                        </div>
-                    </div>
-                    <div class="col-4 p-5">
-                        <%= image_tag("feed.png", class: "img-fluid", id: "calendar_tab" )  %>
-                    </div>
-                </div>
+    <!-- Third Box  -->
+    <div class="py-4 px-5 bg-dark rounded-3   mx-auto">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 align-self-center text-center ">
+                <h2>Track Your Workouts</h2>
+                <div class="container-bg w-75 mx-auto" style="height: 3px "></div>
+                <p class="py-2">Select between Weight Training, Yoga, Stretching, Cardio, and HIIT presets. The modular approach allows you to record whatever details matter most to you.</p>
+                
             </div>
-        </div>    
-    </div>
-
-    </div>
-        <div class="py-5">
-            <div class="py-4 px-5 bg-dark rounded-3 w-75 mx-auto" style=" ">
-                <div class="row g-0 align-items-center">
-                    <div class="col-4 p-5">
-                        <%= image_tag("currWorkout.png", class: "img-fluid", id: "calendar_tab" )  %>
-                    </div>
-                    <div class="col-8">
-                        <div class="text-center text-light">
-                            <h2>Track Your Workouts</h2>
-                            <div class="container-bg w-75 mx-auto" style="height: 3px "></div>
-                            <p class="py-2">Select between Weight Training, Yoga, Stretching, Cardio, and HIIT presets. The modular approach allows you to record whatever details matter most to you.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-sm-8 col-xs-6 d-flex mx-auto" >
+                <%= image_tag("calendar.png", class: "img-fluid", id: "calendar_tab" )  %>
             </div>
-        </div>    
+        </div>
     </div>
-
+    
 
 </div>
 
