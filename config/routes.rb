@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "home#homepage"
   get "home/about"
+  get "home/RW_WD"
+
 end
